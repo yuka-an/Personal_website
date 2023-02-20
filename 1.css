@@ -1,0 +1,42 @@
+body{margin:0; text-align: center; font-family: Arial, Helvetica, sans-serif;}
+.top_container{
+    position: relative;
+    background-color: #F9F5E7; 
+    padding-top: 50px;
+    margin-bottom: 80px;
+}
+.dp{
+    width:150px;
+}
+.skill-icon{ margin-right:30px;width:10rem; float: left;} 
+.teaching{margin-left: 30px; float: right;}
+a{
+    text-decoration: none; color:#AA5656;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{color: #B99B6B;}
+a:active{color:#0d0b0b}
+h1{
+    color:#B99B6B;
+    margin:3rem auto 0 auto;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+h2{
+    color:#B99B6B;
+    font-size:1.3rem;
+    font-weight: normal;
+}
+h3{color:#A7727D}
+.top-cloud{
+    position:relative;
+    left: 20%;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 25%;
+}
+.name{
+    font-family: Sacramento;
+}
+.skill-row{width:50%;margin: 100px auto 100px auto; text-align: left; line-height: 2;}
