@@ -1,9 +1,18 @@
-body{margin:0; text-align: center; font-family: Arial, Helvetica, sans-serif;}
+body{
+    margin:0; text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFBF5;
+}
+hr{
+    width:12%;
+    border-style: none; margin: 50px auto 50px auto; 
+    border-top-style: dotted; border-top-width: 5px;
+}
+p{line-height: 2;}
 .top_container{
     position: relative;
     background-color: #F9F5E7; 
     padding-top: 50px;
-    margin-bottom: 80px;
 }
 .dp{
     width:150px;
@@ -11,10 +20,11 @@ body{margin:0; text-align: center; font-family: Arial, Helvetica, sans-serif;}
 .skill-icon{ margin-right:30px;width:10rem; float: left;} 
 .teaching{margin-left: 30px; float: right;}
 a{
-    text-decoration: none; color:#AA5656;
+    text-decoration: none; color:#d69a69;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 20px;
 }
-a:hover{color: #B99B6B;}
+a:hover{color: #3d3c3b;}
 a:active{color:#0d0b0b}
 h1{
     color:#B99B6B;
@@ -38,8 +48,40 @@ h3{color:#A7727D}
     left: 25%;
     width: 15%;
 }
-.name{
-    font-family: Sacramento;
-}
-.skill-row{width:50%;margin: 100px auto 100px auto; text-align: left; line-height: 2;}
 .mountain{width:48%;}
+.name{font-family: Sacramento;}
+.skill-row{width:50%;margin: 100px auto 100px auto; text-align: left; line-height: 2;}
+.contact-me{
+    margin:100px auto;
+}
+.links{
+    background-color: #F8CBA6;
+    padding: 50px 0 10px;
+}
+.btn {
+    line-height: 5;
+    background: #F8CBA6;
+    background-image: -webkit-linear-gradient(top, #F8CBA6, #F8CBA6);
+    background-image: -moz-linear-gradient(top, #F8CBA6, #F8CBA6);
+    background-image: -ms-linear-gradient(top, #F8CBA6, #F8CBA6);
+    background-image: -o-linear-gradient(top, #F8CBA6, #F8CBA6);
+    background-image: linear-gradient(to bottom, #F8CBA6, #F8CBA6);
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #FFE7CC;
+    background-image: -webkit-linear-gradient(top, #FFE7CC, #FFE7CC);
+    background-image: -moz-linear-gradient(top, #FFE7CC, #FFE7CC);
+    background-image: -ms-linear-gradient(top, #FFE7CC, #FFE7CC);
+    background-image: -o-linear-gradient(top, #FFE7CC, #FFE7CC);
+    background-image: linear-gradient(to bottom, #FFE7CC, #FFE7CC);
+    text-decoration: none;
+  }
