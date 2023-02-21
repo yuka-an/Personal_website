@@ -31,13 +31,15 @@ h3{color:#A7727D}
 .top-cloud{
     position:relative;
     left: 20%;
+    width: 9.375%;
 }
 .bottom-cloud{
     position: absolute;
     left: 25%;
+    width: 9.375%;
 }
 .name{
     font-family: Sacramento;
 }
 .skill-row{width:50%;margin: 100px auto 100px auto; text-align: left; line-height: 2;}
-.mountain{width:37.375rem;}
+.mountain{width:37.375%;}
