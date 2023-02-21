@@ -7,7 +7,6 @@ hr{
     width:12%;
     border-style: none; margin: 50px auto 50px auto; 
     border-top-style: dotted; border-top-width: 5px;
-    color:grey;
 }
 p{line-height: 2;}
 .top_container{
@@ -49,6 +48,7 @@ h3{color:#A7727D}
     left: 25%;
     width: 15%;
 }
+.middle-container{padding-top:50px;}
 .mountain{width:48%;}
 .name{font-family: Sacramento;}
 .skill-row{width:50%;margin: 100px auto 100px auto; text-align: left; line-height: 2;}
