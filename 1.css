@@ -7,6 +7,7 @@ hr{
     width:12%;
     border-style: none; margin: 50px auto 50px auto; 
     border-top-style: dotted; border-top-width: 5px;
+    color:grey;
 }
 p{line-height: 2;}
 .top_container{
